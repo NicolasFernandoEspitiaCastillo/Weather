@@ -7,7 +7,6 @@
     color: var(--color-2);
     font-family: "OpenSans-Regular";
 }
-
 body {
     background: var(--background-1);
 }
@@ -135,184 +134,70 @@ header{
 .form__submit input.active{
     background: var(--button-1);
 }
-/***************************************************/
+
+/*************************************/
 
 .container_main {
-    /* background: red; */
-    margin-top: 16px;
-}
-.container_info {
-    /* background: blue; */
-}
-.info1 {
-    /* background: turquoise; */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 16px;
-}
-.container_wind {
-    background: var(--color-4);
-    width: 182px;
-    height: 65px;
-    display: flex;
-    border-radius: 16px;
-}
-.div_img {
-    /* background: orange; */
+    width: 377px;
+    height: 84px;
+    background: var(--color-5);
+    margin-left: 19px;
+    border-radius: 18px;
+    margin-right: 16px;
+    margin-top: 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    img{
-        margin-left: 11px;
-    }
 }
-.div_title {
-    /* background: green; */
-    width: 138px;
-    height: 50px;
-    margin-top: 9px;
-    margin-left: 8px;
-    h3{
-        font-size: 14px;
-        font-family: "OpenSans-Regular";
-        font-weight: 100;
-    }
-
-}
-.div_paragraph {
-    width: 138px;
-    height: 24px;
-    /* background: yellow; */
+.container_climate {
+    /* background: blue; */
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 4px;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 18px;
+    margin-right: 16px;
+}
+.div_card {
+    /* background: violet; */
+    h2{
+        font-size: 16px;
+        font-family: "OpenSans-Regular";
+        color: var(--color-6);
+    }
     p{
+        font-size: 16px;
+        margin-top: 3px;
+        font-family: "OpenSans-Regular";
+        color: var(--color-3);
+    }
+}
+.div_degrees {
+    /* background: teal; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    span{
+        color: var(--color-7);
         font-size: 16px;
         font-family: "OpenSans-Regular";
     }
 }
-.div_span {
-    /* background: violet; */
-    display: flex;
-    margin-top: 15px;
-    
-    span{
-        font-size: 11px;
-        margin-right: 14px;
-        font-family: "OpenSans-Medium";
-    }
-}
-.container_rain {
-    background: var(--color-4);
-    width: 182px;
-    height: 65px;
-    display: flex;
-    border-radius: 16px;
-}
-.info2 {
+.div_figure {
     /* background: turquoise; */
-    margin-top: 12px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 16px;
 }
-/***********************************************/
-
-.container_forecast {
-    width: 380px;
-    height: 158px;
-    margin-left: 16px;
-    background: var(--color-4);
-    margin-top: 28px;
-    border-radius: 18px;
-    padding-top: 15px;
-}
-.forecast_title {
-    /* background: blue; */
-    display: flex;
-    margin-left: 27px;
-    gap: 8px;
-    align-items: center;
-    h2{
-        font-size: 14px;
-        font-family: "OpenSans-Regular";
-        font-weight: 100;
-    }
-}
-.forecast_content {
-    /* background: violet; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 16px;
-}
-.content {
+.div_button {
     /* background: green; */
+    button{
+        width: 18px;
+        height: 18px;
+        border-radius: 100%;
+        border: none;
+    }
+}
+
+.article2{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    h3{
-        font-size: 13px;
-        font-family: "OpenSans-Regular";
-        font-weight: 100;
-    }
-    h2{
-        font-size: 18px;
-        font-family: "OpenSans-Regular";
-        font-weight: 100;
-    }
+    gap: 10px;
 }
-/*********************************************/
-
-.temperature{
-    background: #d0bcff4d;
-    width: 380px;
-    height: 250px;
-    margin-left: 16px;
-    border-radius: 18px;
-    margin-top: 20px;
-    padding: 20px;
-}
-.title{
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
-    align-items: center;
-    h3{
-        font-size: 14px;
-        font-weight: 100;
-        font-family: "OpenSans-Regular";
-    }
-}
-canvas {
-    /* position: absolute; */
-    /* margin: 0 auto; */
-    /* width: 100%; */
-}
-
-/*********************************************/
-
-.container_chance{
-    background: #d0bcff4d;
-    width: 380px;
-    height: 250px;
-    margin-left: 16px;
-    border-radius: 18px;
-    margin-top: 20px;
-    padding: 20px;
-}
-.container_hour{
-    /* background: blue; */
-    margin-top: 24px;
-}
-
-/*************************************************/
-
-
-
-

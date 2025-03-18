@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="./storage/img/logo.png" type="image/png">
     <link rel="stylesheet" href="./css/style.css">
     <script type="module" defer src="js/main.js"></script>
+    <script defer src="js/graph.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
    <header>
@@ -143,6 +145,56 @@
                 </div>
             </article>
         </section>
+        <section>
+            <article class="temperature">
+                <div class="title">
+                    <img src="storage/img/calendar_month.png" alt="">
+                    <h3>Day forecast</h3>
+                </div>
+                <canvas id="tempChart" width="1020" height="510" style="display: block;box-sizing: border-box;height: 130px;width: 340px;"></canvas>
+            </article>
+        </section>
+        <section>
+            <article class="container_chance">
+                <div class="title">
+                    <img src="storage/img/rainy.png" alt="">
+                    <h3>Chance of rain</h3>
+                </div>
+            </article>
+        </section>
+        <section class="container_hour">
+            <article class="info1">
+                <div class="container_wind">
+                    <div class="div_img">
+                        <img src="storage/img/nights_stay.png">
+                    </div>
+                    <div class="div_title">
+                        <h3>Sunrise</h3>
+                        <div class="div_paragraph">
+                            <p>4:20 AM</p>
+                        <div class="div_span">
+                            <span>4h ago</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_rain">
+                    <div class="div_img">
+                        <img src="storage/img/bounding_box.png">
+                    </div>
+                    <div class="div_title">
+                        <h3>Sunset</h3>
+                        <div class="div_paragraph">
+                            <p>4:50 PM</p>
+                        <div class="div_span">
+                            <span>in 9h</span>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        
    </main>
 
    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
