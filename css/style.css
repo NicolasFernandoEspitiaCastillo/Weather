@@ -152,7 +152,7 @@ header{
     gap: 16px;
 }
 .container_wind {
-    background: var(--button-1);
+    background: var(--color-4);
     width: 182px;
     height: 65px;
     display: flex;
@@ -206,7 +206,7 @@ header{
     }
 }
 .container_rain {
-    background: var(--button-1);
+    background: var(--color-4);
     width: 182px;
     height: 65px;
     display: flex;
@@ -223,19 +223,45 @@ header{
 /***********************************************/
 
 .container_forecast {
-    background: red;
+    width: 380px;
+    height: 158px;
+    margin-left: 16px;
+    background: var(--color-4);
     margin-top: 28px;
+    border-radius: 18px;
+    padding-top: 15px;
 }
 .forecast_title {
-    background: blue;
+    /* background: blue; */
     display: flex;
+    margin-left: 27px;
+    gap: 8px;
+    align-items: center;
+    h2{
+        font-size: 14px;
+        font-family: "OpenSans-Regular";
+
+    }
 }
 .forecast_content {
-    background: violet;
+    /* background: violet; */
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 16px;
 }
 .content {
-    background: green;
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    h3{
+        font-size: 13px;
+        font-family: "OpenSans-Regular";
+    }
+    h2{
+        font-size: 18px;
+        font-family: "OpenSans-Regular";
+    }
 }
