@@ -13,7 +13,7 @@ body {
 }
 header{
     transition:height 0.4s ease-in-out;
-    background: red;
+    /* background: red; */
     /* height: 420px; */
 }
 #navbar {
@@ -26,9 +26,9 @@ header{
     background-size: contain;
     background-position: center calc(0% - 100px);
     background-attachment: fixed;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
-    z-index: 10;
+    /* z-index: 10; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -134,4 +134,108 @@ header{
 }
 .form__submit input.active{
     background: var(--button-1);
+}
+/***************************************************/
+
+.container_main {
+    /* background: red; */
+    margin-top: 16px;
+}
+.container_info {
+    /* background: blue; */
+}
+.info1 {
+    /* background: turquoise; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+.container_wind {
+    background: var(--button-1);
+    width: 182px;
+    height: 65px;
+    display: flex;
+    border-radius: 16px;
+}
+.div_img {
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+        margin-left: 11px;
+    }
+}
+.div_title {
+    /* background: green; */
+    width: 138px;
+    height: 50px;
+    margin-top: 9px;
+    margin-left: 8px;
+    h3{
+        font-size: 14px;
+        font-family: "OpenSans-Regular";
+        font-weight: 100;
+    }
+
+}
+.div_paragraph {
+    width: 138px;
+    height: 24px;
+    /* background: yellow; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4px;
+    justify-content: space-between;
+    p{
+        font-size: 16px;
+        font-family: "OpenSans-Regular";
+    }
+}
+.div_span {
+    /* background: violet; */
+    display: flex;
+    margin-top: 15px;
+    
+    span{
+        font-size: 11px;
+        margin-right: 14px;
+        font-family: "OpenSans-Medium";
+    }
+}
+.container_rain {
+    background: var(--button-1);
+    width: 182px;
+    height: 65px;
+    display: flex;
+    border-radius: 16px;
+}
+.info2 {
+    /* background: turquoise; */
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+/***********************************************/
+
+.container_forecast {
+    background: red;
+    margin-top: 28px;
+}
+.forecast_title {
+    background: blue;
+    display: flex;
+}
+.forecast_content {
+    background: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.content {
+    background: green;
 }
